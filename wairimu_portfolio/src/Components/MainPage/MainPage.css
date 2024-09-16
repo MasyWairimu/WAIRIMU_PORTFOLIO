@@ -1,0 +1,215 @@
+/* THIS IS THE ABOUT ME SECTION OF THE PORTFOLIO */
+.aboutPage {
+    width: 80%;
+    margin: auto;
+    padding: 4rem 1rem;
+}
+
+/* INTRO OF THE PAGE */
+
+.pageIntro {
+    margin: auto;
+}
+
+.introName {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    font-weight: 400;
+    animation: fadeInDown 1s ease-out forwards;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Name {
+    font-weight: 700;
+    font-size: 2.5em;
+    animation: slideInLeft 1.5s ease-out forwards;
+}
+
+.Slogan {
+    font-weight: 700;
+    font-size: 2em;
+    animation: slideInLeft 2s ease-out forwards;
+    line-height: 10px;
+    color: rgb(from var(--main-text-color) r g b / 75%);
+    font-family: "SUSE", sans-serif;
+}
+
+.intro {
+    animation: slideInLeft 2.2s ease-out forwards;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    color: rgb(from var(--main-text-color) r g b / 75%);
+}
+
+.intro p {
+    margin: 1%;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.getintouchButton button {
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: transparent;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 0.8rem;
+    border-width: 0.1px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.4s, color 0.4s, transform 1s;
+    /* Add transitions for smooth animation */
+}
+
+.getintouchButton button:hover {
+    transform: scale(1.1);
+    /* Add a slight scale effect on hover */
+    background-color: rgb(from var(--main-color) r g b / 95%);
+    /* Change background color on hover */
+    color: rgb(from var(--secondary-color) r g b / 90%);
+    /* Change text color on hover */
+    outline-color: var(--secondary-color);
+    /* Change outline color on hover */
+}
+
+
+/* ABOUT CONTENT SECTION WHICH SUMMARISES ABOUT ME */
+
+.aboutContent {
+    margin: 15% 0;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.content{
+    display:flex;
+    justify-content:space-between;
+}
+
+.title{
+    padding-right: 1px;
+}
+
+.text{
+    width: 65%;
+    color: rgb(from var(--main-text-color) r g b / 80%);
+}
+
+.list ol{
+    display:flex;
+    justify-content:space-between;
+    color: rgb(from var(--secondary-color) r g b / 99%);
+}
+
+li{
+    padding: 0.4rem;
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+}
+
+/* adding aesthetic rectangle */
+
+/* .rectangle{
+    width: 24.5%;
+    height: 73.5%;
+    position: absolute;
+    border-radius: 1rem;
+    right: 60px;
+    border: 0.8px solid var(--secondary-color) ;
+} */
+
+.portfolioImage{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* EXPERIENCE SECTION */
+.ExperienceSection{
+    width: 80%;
+    position: relative;
+    left: 40%;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.experience{
+    padding-bottom: 15px;
+}
+
+.experience h3{
+    color: rgb(from var(--secondary-color) r g b / 90%);
+    margin-left: 4%;
+}
+
+.experience h4{
+    color: rgb(from var(--secondary-color) r g b / 82%);
+    margin-left: 4%;
+}
+
+
+/* SKILLS SECTION */
+
+.skillsSection{
+    width: 70%;
+    margin: auto;
+    padding: 4rem 1rem;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.skills{
+    display: flex;
+    margin: auto;
+}
+
+.skillItem{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.skillIcon{
+    color: rgb(from var(--secondary-color) r g b / 90%);
+    font-size: 2.2rem;
+}
+
+.skill{
+    color: rgb(from var(--main-text-color) r g b / 80%);
+}
+
+/* PROJECT SECTION */
+
+.projectSection{
+    width: 80%;
+    position: relative;
+    left: 40%;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+}

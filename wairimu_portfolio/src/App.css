@@ -1,0 +1,12 @@
+/* Global CSS variables */
+:root {
+  --main-color: #1D1B1A; /* Main background color */
+  --main-text-color: #F8CBA5; /* Main text color */
+  --secondary-color: #FE8019; /* Secondary color */
+  --sidebar-color: #252221;
+}
+
+body{
+  background-color: var(--main-color); /* Set background color */
+  color: var(--main-text-color); /* Set text color */
+}

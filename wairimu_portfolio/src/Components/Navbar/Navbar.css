@@ -1,0 +1,46 @@
+:root {
+    --main-color: #1D1B1A; /* Main background color */
+    --main-text-color: #F8CBA5; /* Main text color */
+    --secondary-color: #FE8019; /* Secondary color */
+    --sidebar-color: #252221;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    box-shadow: 0 0 0.2rem 0;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.Link{
+    color:var(--secondary-color);
+    text-decoration: none;
+    padding: 1rem;
+    transition: color 0.3s ease-out, transform 1s;
+}
+
+.Link:hover{
+    color: var(--main-text-color);
+    font-size: 1.2rem;
+}
+
+.Button{
+    padding: 0.6rem 1.2rem;
+    background: transparent;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 0.8rem;
+    border-width: 0.1px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s, transform 0.5s; /* Add transitions for smooth animation */
+    font-weight: 600;
+}
+
+.Button:hover{
+    background-color: var(--secondary-color); /* Change background color on hover */
+    color: var(--main-color); /* Change text color on hover */
+    transform: scale(1.02); /* Add a slight scale effect on hover */
+    outline-color: var(--secondary-color); /* Change outline color on hover */
+}

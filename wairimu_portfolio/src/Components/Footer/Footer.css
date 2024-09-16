@@ -1,0 +1,43 @@
+:root {
+    --main-color: #1D1B1A; /* Main background color */
+    --main-text-color: #F8CBA5; /* Main text color */
+    --secondary-color: #FE8019; /* Secondary color */
+    --secondary-color-2: #f79d53; /* Secondary color */
+    --sidebar-color: #252221;
+}
+
+.FooterContainer{
+    display: flex;
+    flex-direction:row;
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    transform: rotate(90deg);
+    bottom: 3%;
+    left: -8%;
+    position:fixed;  
+    align-items: center;
+    text-align: center;
+    height: max-content;
+}
+
+.sticky-aspect{
+    flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.icon {
+    color: var(--secondary-color);
+    transform: rotate(270deg);
+    padding: 0.2rem;
+    font-size: 1.4rem;
+    transition: color 0.4s; /* Add transitions for smooth animation */
+    transform: 1s;
+}
+
+.icon:hover {
+    color: var(--secondary-color-2);
+    transform: rotate(270deg);
+    padding: 0.2rem;
+    font-size: 1.65rem;
+}
