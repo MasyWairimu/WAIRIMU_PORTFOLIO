@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/css/main.886bf123.css",
+    "main.js": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/main.11366873.js",
+    "static/js/453.6e87cbdb.chunk.js": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/453.6e87cbdb.chunk.js",
+    "static/media/PortfolioImage.jpeg": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/media/PortfolioImage.2f9f8b1113cce8fe531d.jpeg",
+    "index.html": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/index.html",
+    "main.886bf123.css.map": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/css/main.886bf123.css.map",
+    "main.11366873.js.map": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/main.11366873.js.map",
+    "453.6e87cbdb.chunk.js.map": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/453.6e87cbdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.886bf123.css",
+    "static/js/main.11366873.js"
+  ]
+}
