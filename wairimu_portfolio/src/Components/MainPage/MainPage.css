@@ -1,12 +1,10 @@
 /* THIS IS THE ABOUT ME SECTION OF THE PORTFOLIO */
 .aboutPage {
-    width: 80%;
+    width: 75%;
     margin: auto;
-    padding: 4rem 1rem;
 }
 
 /* INTRO OF THE PAGE */
-
 .pageIntro {
     margin: auto;
 }
@@ -18,8 +16,7 @@
     animation: fadeInDown 1s ease-out forwards;
     font-family: "Martian Mono", monospace;
     font-optical-sizing: auto;
-    font-variation-settings:
-        "wdth" 100;
+    font-variation-settings: "wdth" 100;
 }
 
 @keyframes fadeInDown {
@@ -153,9 +150,9 @@ li{
 
 /* EXPERIENCE SECTION */
 .ExperienceSection{
-    width: 80%;
+    width: 90%;
     position: relative;
-    left: 40%;
+    left: 25%;
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
 }
@@ -178,7 +175,7 @@ li{
 /* SKILLS SECTION */
 
 .skillsSection{
-    width: 70%;
+    width: 75%;
     margin: auto;
     padding: 4rem 1rem;
     font-family: "SUSE", sans-serif;
@@ -207,9 +204,69 @@ li{
 /* PROJECT SECTION */
 
 .projectSection{
-    width: 70%;
+    width: 95%;
+    left: 10%;
     position: relative;
-    left: 40%;
+    margin: auto;
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
+    height: max-content;
+}
+
+.project{
+    padding: 2rem 0;
+}
+
+.projectDetails{
+    display: flex;
+}
+
+.projectName{
+    padding: 0  1.5rem 0 5rem;
+    color: rgb(from var(--secondary-color) r g b / 80%);
+    font-size: 1.3rem;
+}
+
+.projectContent{
+    height: max-content;
+    padding: 1rem 0;
+    width:40%;
+    color: rgb(from var(--main-text-color) r g b / 80%);
+    height: 100%;
+    line-height: 2rem;
+}
+
+.project2 .projectContent{
+    padding-left: 0;
+}
+
+.projectContent a{
+    color: rgb(from var(--secondary-color) r g b / 70%);
+}
+
+.projectImage{
+    width: 50%;
+}
+
+.projectImage img{
+    width: 500px;
+    height: 250px;
+    margin: 1rem;
+}
+
+.iconParagraph{
+    color: rgb(from var(--secondary-color) r g b / 80%);
+}
+
+.pIcon{
+    font-size: 1.3rem;
+    padding: 0 0.3rem;
+    transition: background-color 0.4s, color 0.4s, transform 1s;
+}
+
+.pIcon:hover{
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: rgb(from var(--secondary-color) r g b / 95%);
+
 }

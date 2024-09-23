@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     transform: rotate(90deg);
-    bottom: 3%;
+    bottom: 15%;
     left: -8%;
     position:fixed;  
     align-items: center;
@@ -30,7 +30,7 @@
     color: var(--secondary-color);
     transform: rotate(270deg);
     padding: 0.2rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     transition: color 0.4s; /* Add transitions for smooth animation */
     transform: 1s;
 }
@@ -39,5 +39,5 @@
     color: var(--secondary-color-2);
     transform: rotate(270deg);
     padding: 0.2rem;
-    font-size: 1.65rem;
+    font-size: 1.85rem;
 }
