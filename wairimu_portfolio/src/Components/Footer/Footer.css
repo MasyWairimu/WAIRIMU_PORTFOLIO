@@ -21,6 +21,26 @@
     height: max-content;
 }
 
+.emailContainer{
+    display: flex;
+    flex-direction:row;
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    transform: rotate(90deg);
+    bottom: 20%;
+    right: -10%;
+    position:fixed;  
+    align-items: center;
+    text-align: center;
+    height: max-content;  
+}
+.email a{
+    color: rgb(from var(--secondary-color) r g b / 100%);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
 .sticky-aspect{
     flex-grow: 0;
   flex-shrink: 0;

@@ -19,7 +19,7 @@ const FooterComponent = () => {
                         <FaLinkedin className='icon' />
                     </a>
                     <a href='https://www.threads.net/@_wairimu_gitingu' target="_blank" rel="noopener noreferrer">
-                    <FaThreads/>
+                        <FaThreads className='icon' />
                     </a>
                     <a href='https://x.com/wairimugitungu?t=s-m4foggOc-K1bfC3DjIIg&s=08' target="_blank" rel="noopener noreferrer">
                         <BsTwitterX className='icon' />
@@ -27,6 +27,15 @@ const FooterComponent = () => {
                     <a href='https://www.instagram.com/_wairimu_gitingu?igsh=MXEwZmJiZTFqa2huaw==' target="_blank" rel="noopener noreferrer">
                         <FaInstagram className='icon' />
                     </a>
+                </div>
+                <div className='line sticky-aspect'>
+                    <img src={FooterLine} alt='FooterLine' style={{ width: '120px' }} />
+                </div>
+            </Container>
+
+            <Container className='emailContainer'>
+                <div className='email sticky-aspect'>
+                    <a href='mailto: wairimugitungu@gmail.com'>wairimugitungu@gmail.com</a>
                 </div>
                 <div className='line sticky-aspect'>
                     <img src={FooterLine} alt='FooterLine' style={{ width: '120px' }} />

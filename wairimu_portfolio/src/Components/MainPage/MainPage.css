@@ -1,12 +1,12 @@
 /* THIS IS THE ABOUT ME SECTION OF THE PORTFOLIO */
 .aboutPage {
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 
 /* INTRO OF THE PAGE */
 .pageIntro {
-    margin: auto;
+    margin: 15% auto;
 }
 
 .introName {
@@ -98,7 +98,7 @@
 /* ABOUT CONTENT SECTION WHICH SUMMARISES ABOUT ME */
 
 .aboutContent {
-    margin: 15% 0;
+    margin: 15% 0 0 5%;
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
 }
@@ -150,9 +150,10 @@ li{
 
 /* EXPERIENCE SECTION */
 .ExperienceSection{
-    width: 90%;
+    width: 80%;
+    margin: auto;
     position: relative;
-    left: 25%;
+    left: 10%;
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
 }
@@ -204,7 +205,7 @@ li{
 /* PROJECT SECTION */
 
 .projectSection{
-    width: 95%;
+    width: 80%;
     left: 10%;
     position: relative;
     margin: auto;
@@ -269,4 +270,42 @@ li{
     cursor: pointer;
     color: rgb(from var(--secondary-color) r g b / 95%);
 
+}
+
+/* CONTACTS SECTION */
+.contactsSection{
+    width: 50%;
+    margin: auto;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    color: rgb(from var(--main-text-color) r g b / 80%);
+    height: 100%;
+    line-height: 2rem;
+    /* padding: 2rem 0 5rem 0; */
+    padding: 7rem;
+}
+
+.contactMe{
+    color: rgb(from var(--secondary-color) r g b / 90%);
+    font-weight: 400;
+}
+
+.mailButton{
+    padding: 1.5rem;
+    background: transparent;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 0.8rem;
+    border-width: 0.1px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s, transform 0.5s; /* Add transitions for smooth animation */
+    font-weight: 500;
+}
+
+.mailButton:hover{
+    background-color: var(--secondary-color); /* Change background color on hover */
+    color: var(--main-color); /* Change text color on hover */
+    transform: scale(1.02); /* Add a slight scale effect on hover */
+    outline-color: var(--secondary-color); /* Change outline color on hover */
 }
