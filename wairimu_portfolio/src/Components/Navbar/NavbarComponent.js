@@ -9,7 +9,7 @@ const NavbarComponent = () => {
             <Navbar>
                 <Container className='Navbar'>
                     <Navbar.Brand href='#Intro'>
-                        <img src={Logo} alt='Logo' style={{ height: '90px', width: '120px' }} />
+                        <img src={Logo} alt='Logo' style={{ height: '90px', width: '120px' }} className='Logo' />
                     </Navbar.Brand>
                     <Nav>
                         <Nav.Link href='#About' className='Link'> About Me</Nav.Link>

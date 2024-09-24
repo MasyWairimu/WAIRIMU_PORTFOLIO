@@ -28,6 +28,7 @@
 
 .Button{
     padding: 0.6rem 1.2rem;
+    margin: 0 1rem;
     background: transparent;
     color: var(--secondary-color);
     border-color: var(--secondary-color);
@@ -43,4 +44,22 @@
     color: var(--main-color); /* Change text color on hover */
     transform: scale(1.02); /* Add a slight scale effect on hover */
     outline-color: var(--secondary-color); /* Change outline color on hover */
+}
+
+
+@media only screen  and (max-width:2100px) {
+    .Navbar{
+        height: 120px;
+        box-shadow: 0 0 0.9rem 0;
+        padding: auto 2rem;
+    }
+    
+    .Button{
+        padding: 1.5rem;
+        border-width: 3px;
+        font-weight: 700;
+        height: 80px;
+        width: 150px;
+        font-size: 1.5rem;
+    }
 }
