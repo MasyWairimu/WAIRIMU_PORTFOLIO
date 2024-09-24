@@ -2,7 +2,7 @@
   "name": "wairimu_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MasyWairimu.github.io/WAIRIMU_PORTFOLIO/wairimu_portfolio",
+  "homepage": "https://MasyWairimu.github.io/WAIRIMU_PORTFOLIO",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
