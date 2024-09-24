@@ -64,7 +64,7 @@
 
 
 
-@media only screen  and (max-width:2100px) {
+@media only screen  and (min-width:1900px) {
     .FooterContainer{
         bottom: 10%;
         left: -5%;
@@ -82,5 +82,84 @@
 
     .icon{
         font-size: 3rem;
+    }
+}
+
+@media only screen  and (max-width:1899px) {
+    .emailContainer{
+        bottom:12%;
+
+    }
+
+    .FooterContainer{
+        bottom: 8%;
+    }
+}
+
+@media only screen  and (max-width:1310px) {
+    .emailContainer{
+        right: -14%;
+    }
+
+    .FooterContainer{
+        left: -8%;
+    }
+}
+
+@media only screen  and (max-width:1330px) {
+    .emailContainer{
+        right: -14%;
+    }
+
+    .FooterContainer{
+        left: -10%;
+    }
+}
+
+@media only screen  and (max-width:1190px) {
+    .emailContainer{
+        right: -15%;
+    }
+
+    .FooterContainer{
+        left: -10%;
+    }
+
+    .icon{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen  and (max-width:1000px) {
+    .emailContainer{
+        right: -20%;
+    }
+
+    .FooterContainer{
+        left: -10%;
+    }
+}
+
+@media only screen  and (max-width: 800px) {
+    .emailContainer{
+        right: -26%;
+        bottom: 7%;
+    }
+
+    .FooterContainer{
+        left: -15%;
+        bottom: 3%;
+    }
+}
+
+@media only screen  and (max-width: 700px) {
+    .emailContainer{
+        right: -28%;
+        bottom: 15%;
+    }
+
+    .FooterContainer{
+        left: -15%;
+        bottom: 15%;
     }
 }

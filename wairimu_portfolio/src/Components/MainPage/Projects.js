@@ -78,7 +78,7 @@ const Projects = () => {
                                  DOC&I </a>
                             </p>
                     </div>
-                    <div className='projectImage'>
+                    <div className='projectImage docImage'>
                         <img src={Doctor} alt='Line' style={{ width: '200px', height: "300px" }} />
                         <img src={Patient} alt='Line' style={{ width: '200px', height: "300px" }} />
                     </div>
