@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Nav, Navbar, Button } from 'react-bootstrap'
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import Logo from '../../assets/Logo.png';
 import './Navbar.css'
 
@@ -16,8 +16,8 @@ const NavbarComponent = () => {
                         <Nav.Link href='#Experience' className='Link'> Experience</Nav.Link>
                         <Nav.Link href='#Projects' className='Link'> Projects</Nav.Link>
                         <Nav.Link href='#Contacts' className='Link'> Contacts</Nav.Link>
-                        <a href='../../assets/MERCY RESUME.pdf'>
-                            <Button className='Button'> Resume</Button>
+                        <a href='https://1drv.ms/b/s!AlyiYipSAd7uk_IecO9XuMTQCMpBDA?e=z9oJn7' target="_blank" rel="noopener noreferrer" > 
+                              <Button className='Button'> Resume</Button>
                         </a>
                     </Nav>
                 </Container>

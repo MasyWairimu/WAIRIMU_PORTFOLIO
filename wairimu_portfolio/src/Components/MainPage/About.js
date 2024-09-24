@@ -17,7 +17,11 @@ const About = () => {
                     <p>I enjoy challenging myself by learning new skills and implementing the solutions in real life!</p>
                 </div>
                 <div class="getintouchButton">
-                    <button>Get In Touch</button>
+                    <a href='mailto: wairimugitungu@gmail.com'>
+                        <button >
+                            Get In Touch
+                        </button>
+                    </a>
                 </div>
             </div>
 

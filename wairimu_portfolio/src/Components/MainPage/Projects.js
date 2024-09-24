@@ -74,7 +74,7 @@ const Projects = () => {
                             healthcare professionals. </p>
                             <p>
                                 Download the applicatio from this folder to view: <span></span>
-                                <a href='https://1drv.ms/f/s!AlyiYipSAd7ukb4ezK4Q94leq54tUw?e=ueISbo' target="_blank" rel="noopener noreferrer" > 
+                                <a href='https://1drv.ms/f/s!AlyiYipSAd7ukb4eGZ65A9SpBVbwQQ?e=hhac0T' target="_blank" rel="noopener noreferrer" > 
                                  DOC&I </a>
                             </p>
                     </div>
