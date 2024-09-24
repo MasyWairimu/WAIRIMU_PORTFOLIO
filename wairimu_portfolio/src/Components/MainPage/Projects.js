@@ -9,7 +9,7 @@ import { SiGithub } from "react-icons/si";
 
 const Projects = () => {
     return (
-        <div className='projectSection'>
+        <div className='projectSection'id='Projects'>
             <h2 className='title'>
                 04. PROJECTS <span> </span>
                 <img src={FooterLine} alt='Line' style={{ width: '250px' }} />

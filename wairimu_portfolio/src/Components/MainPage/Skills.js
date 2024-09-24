@@ -10,7 +10,7 @@ import { SiMysql } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className='skillsSection'>
+    <div className='skillsSection' id='Skills'>
       <h2 className='title'>
         03. SKILLS <span> </span>
         <img src={FooterLine} alt='Line' style={{ width: '250px' }} />

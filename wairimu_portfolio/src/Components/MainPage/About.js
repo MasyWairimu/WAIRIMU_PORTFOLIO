@@ -6,8 +6,8 @@ import PortfolioImage from '../../assets/PortfolioImage.jpeg'
 
 const About = () => {
     return (
-        <div className='aboutPage'>
-            <div class="pageIntro">
+        <div className='aboutPage' >
+            <div class="pageIntro" id='Intro'>
                 <h5 className='introName'>Hello, my name is</h5>
                 <h3 className='Name'>Mercy Wairimu Gitingu.</h3>
                 <h4 className='Slogan'>Unlocking Possibilities, One Line of Code at a Time</h4>
@@ -21,7 +21,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='aboutContent'>
+            <div className='aboutContent' id='About'>
                 <h2 className='title'>
                     01. ABOUT
                     <img src={FooterLine} alt='Line' style={{ width: '250px' }} />

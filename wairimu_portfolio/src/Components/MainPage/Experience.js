@@ -5,7 +5,7 @@ import FooterLine from '../../assets/FooterLine.png'
 
 const Experience = () => {
     return (
-        <div className='ExperienceSection'>
+        <div className='ExperienceSection' id='Experience'>
             <h2 className='title'>
                 02. EXPERIENCE <span> </span>
                 <img src={FooterLine} alt='Line' style={{ width: '250px' }} />

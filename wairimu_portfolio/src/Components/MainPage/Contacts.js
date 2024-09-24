@@ -3,7 +3,7 @@ import FooterLine from '../../assets/FooterLine.png'
 
 const Contacts = () => {
     return (
-        <div className='contactsSection'>
+        <div className='contactsSection' id='Contacts'>
             <h2 className='title'>
                 04. What's Next <span> </span>
                 <img src={FooterLine} alt='Line' style={{ width: '250px' }} />
