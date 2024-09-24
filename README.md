@@ -53,7 +53,7 @@ Your portfolio should now be running locally at `http://localhost:3000`.
 
 ## 🔗 Live Demo
 
-Check out the live version of my portfolio [here](#).
+Check out the live version of my portfolio [here](https://masywairimu.github.io/WAIRIMU_PORTFOLIO/).
 
 ## 📝 License
 
