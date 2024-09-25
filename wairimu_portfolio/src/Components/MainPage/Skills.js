@@ -13,7 +13,7 @@ const Skills = () => {
     <div className='skillsSection' id='Skills'>
       <h2 className='title'>
         03. SKILLS <span> </span>
-        <img src={FooterLine} alt='Line' style={{ width: '250px' }} />
+        <img src={FooterLine} alt='Line' style={{ width: '250px' }} className='titleLine' />
       </h2>
 
       <div className='skills'>

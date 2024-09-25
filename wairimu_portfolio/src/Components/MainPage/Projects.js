@@ -9,10 +9,10 @@ import { SiGithub } from "react-icons/si";
 
 const Projects = () => {
     return (
-        <div className='projectSection'id='Projects'>
+        <div className='projectSection' id='Projects'>
             <h2 className='title'>
                 04. PROJECTS <span> </span>
-                <img src={FooterLine} alt='Line' style={{ width: '250px' }} />
+                <img src={FooterLine} alt='Line' style={{ width: '250px' }} className='titleLine' />
             </h2>
             <div className='project project1'>
                 <div className='projectName'>SAFARI PROJECT</div>
@@ -72,11 +72,11 @@ const Projects = () => {
                             The app aims to reduce the need for frequent in-person visits by
                             providing a platform for easy and regular contact with
                             healthcare professionals. </p>
-                            <p>
-                                Download the applicatio from this folder to view: <span></span>
-                                <a href='https://1drv.ms/f/s!AlyiYipSAd7ukb4eGZ65A9SpBVbwQQ?e=hhac0T' target="_blank" rel="noopener noreferrer" > 
-                                 DOC&I </a>
-                            </p>
+                        <p>
+                            Download the applicatio from this folder to view: <span></span>
+                            <a href='https://1drv.ms/f/s!AlyiYipSAd7ukb4eGZ65A9SpBVbwQQ?e=hhac0T' target="_blank" rel="noopener noreferrer" >
+                                DOC&I </a>
+                        </p>
                     </div>
                     <div className='projectImage docImage'>
                         <img src={Doctor} alt='Line' style={{ width: '200px', height: "300px" }} />

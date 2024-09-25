@@ -493,18 +493,28 @@ li {
 @media only screen and (max-width:675px) {
     .Slogan {
         font-weight: 600;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .intro p {
         font-size: 1rem;
     }
+
+    .projectImage img{
+        width: 450px !important;
+        margin: 0;
+    }
+
+    .skillIcon{
+        font-size: 1.9rem;
+    }
+
 }
 
 @media only screen and (max-width:600px) {
     .Slogan {
         font-weight: 600;
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .aboutContent {
         margin-left: 15%;
@@ -522,10 +532,6 @@ li {
         width: 100%;
     }
 
-    .projectImage img{
-        width: 450px;
-    }
-
     .projectSection{
         margin-left: 5%;
     }
@@ -534,6 +540,26 @@ li {
 
     .skillsSection {
         margin-left: 10%;
+
+    }
+
+    .skillIcon{
+        font-size: 1.6rem;
+    }
+
+    .projectName{
+        padding: 0 1rem 0 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .projectImage img{
+        width: 350px !important;
+        height: 200px;
+        margin: 0;
+    }
+
+    .titleLine{
+        width: 200px !important;
     }
 
 }
@@ -545,8 +571,28 @@ li {
     }
 
     .Slogan {
-        font-weight: 700;
-        font-size: 1.1em;
+        font-weight: 550;
+        font-size: 1.05em;
+        line-height: 20px;
+    }
+
+    .projectImage img{
+        width: 300px !important;
+        height: 200px;
+        margin: 0;
+    }
+
+    .experience h3{
+        font-size: 0.9rem;
+    }
+
+    .experience h4{
+        font-size: 0.8rem;
+    }
+
+    .projectName{
+        padding: 0 1rem 0 0rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -560,6 +606,10 @@ li {
         font-weight: 700;
         font-size: 1.02em;
     }
+    .titleLine{
+        width: 200px !important;
+    }
+
 }
 
 @media only screen and (max-width:350px) {
@@ -575,5 +625,15 @@ li {
 
     .intro p {
         font-size: 0.7rem;
+    }
+    
+    .projectImage img{
+        width: 250px !important;
+        height: 200px;
+        margin: 0;
+    }
+
+    .titleLine{
+        width: 150px !important;
     }
 }

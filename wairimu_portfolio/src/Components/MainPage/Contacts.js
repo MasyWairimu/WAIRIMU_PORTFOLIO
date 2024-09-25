@@ -6,8 +6,8 @@ const Contacts = () => {
         <div className='contactsSection' id='Contacts'>
             <h2 className='title'>
                 04. What's Next <span> </span>
-                <img src={FooterLine} alt='Line' style={{ width: '250px' }} />
-            </h2>
+                <img src={FooterLine} alt='Line' style={{ width: '250px' }} className='titleLine' />
+                </h2>
             <h1 className='contactMe'>Get In Touch</h1>
             <div>
                 <p>

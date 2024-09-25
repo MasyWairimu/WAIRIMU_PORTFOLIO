@@ -8,7 +8,7 @@ const Experience = () => {
         <div className='ExperienceSection' id='Experience'>
             <h2 className='title'>
                 02. EXPERIENCE <span> </span>
-                <img src={FooterLine} alt='Line' style={{ width: '250px' }} />
+                <img src={FooterLine} alt='Line' style={{ width: '250px' }} className='titleLine' />
             </h2>
 
             <div className='experienceContent'>

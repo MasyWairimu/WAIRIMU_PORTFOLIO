@@ -28,7 +28,7 @@ const About = () => {
             <div className='aboutContent' id='About'>
                 <h2 className='title'>
                     01. ABOUT
-                    <img src={FooterLine} alt='Line' style={{ width: '250px' }} />
+                    <img src={FooterLine} alt='Line' style={{ width: '250px' }} className='titleLine' />
                 </h2>
                 <div className='content'>
                     <div className='text'>
