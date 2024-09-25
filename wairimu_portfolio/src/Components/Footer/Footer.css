@@ -180,14 +180,13 @@
     }
 }
 
-@media only screen  and (max-width: 500px) {
+@media only screen  and (max-width: 480px) {
     .emailContainer{
-        right: -45%;
-        bottom: 15%;
+        display: none;
     }
 
     .FooterContainer{
-        left: -25%;
+        left: -28%;
         bottom: 15%;
     }
 }

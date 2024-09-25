@@ -518,6 +518,13 @@ li {
     }
     .aboutContent {
         margin-left: 15%;
+        width: 100%;
+    }
+
+    .list ol{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     /* experience section */
@@ -529,17 +536,19 @@ li {
     /* project section */
 
     .projectContent{
-        width: 100%;
+        width: 95%;
     }
 
     .projectSection{
         margin-left: 5%;
+        width: 90%;
     }
 
     /* Skills section */
 
     .skillsSection {
         margin-left: 10%;
+        width: 90%;
 
     }
 
@@ -565,6 +574,9 @@ li {
 }
 
 @media only screen and (max-width:480px) {
+    .intro p{
+        font-size: 0.8rem;
+    }
     .Name {
         font-weight: 700;
         font-size: 1.5em;
@@ -579,11 +591,15 @@ li {
     .projectImage img{
         width: 300px !important;
         height: 200px;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .experience h3{
         font-size: 0.9rem;
+    }
+
+    .skillItem{
+        padding: 0.8rem;
     }
 
     .experience h4{
@@ -597,6 +613,13 @@ li {
 }
 
 @media only screen and (max-width:440px) {
+
+    .projectImage img{
+        width: 200px !important;
+        height: 150px;
+        margin: 0;
+    }
+
     .Name {
         font-weight: 700;
         font-size: 1.4em;
