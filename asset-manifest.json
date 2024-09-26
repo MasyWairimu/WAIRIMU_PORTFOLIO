@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WAIRIMU_PORTFOLIO/static/css/main.cc8a9cfd.css",
-    "main.js": "/WAIRIMU_PORTFOLIO/static/js/main.df7f21c1.js",
+    "main.js": "/WAIRIMU_PORTFOLIO/static/js/main.4588b133.js",
     "static/js/453.6e87cbdb.chunk.js": "/WAIRIMU_PORTFOLIO/static/js/453.6e87cbdb.chunk.js",
     "static/media/image.png": "/WAIRIMU_PORTFOLIO/static/media/image.5ac6b0d910800962c592.png",
     "static/media/PortfolioImage.jpeg": "/WAIRIMU_PORTFOLIO/static/media/PortfolioImage.2f9f8b1113cce8fe531d.jpeg",
@@ -10,11 +10,11 @@
     "static/media/DOC&I-Patient.jpeg": "/WAIRIMU_PORTFOLIO/static/media/DOC&I-Patient.5344022cd4e532bc40a3.jpeg",
     "index.html": "/WAIRIMU_PORTFOLIO/index.html",
     "main.cc8a9cfd.css.map": "/WAIRIMU_PORTFOLIO/static/css/main.cc8a9cfd.css.map",
-    "main.df7f21c1.js.map": "/WAIRIMU_PORTFOLIO/static/js/main.df7f21c1.js.map",
+    "main.4588b133.js.map": "/WAIRIMU_PORTFOLIO/static/js/main.4588b133.js.map",
     "453.6e87cbdb.chunk.js.map": "/WAIRIMU_PORTFOLIO/static/js/453.6e87cbdb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc8a9cfd.css",
-    "static/js/main.df7f21c1.js"
+    "static/js/main.4588b133.js"
   ]
 }
