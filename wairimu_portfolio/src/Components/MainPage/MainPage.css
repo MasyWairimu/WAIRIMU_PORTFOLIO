@@ -536,19 +536,19 @@ li {
     /* project section */
 
     .projectContent{
-        width: 95%;
+        width: 90%;
     }
 
     .projectSection{
-        margin-left: 5%;
-        width: 90%;
+        margin-left: 0;
+        width: 100%;
     }
 
     /* Skills section */
 
     .skillsSection {
-        margin-left: 10%;
-        width: 90%;
+        margin-left: 0;padding: 2%;
+        width: 100%;
 
     }
 
@@ -569,6 +569,14 @@ li {
 
     .titleLine{
         width: 200px !important;
+    }
+
+    .skillsSection .title{
+        margin-left: 13%;
+    }
+
+    .projectSection .title{
+        margin-left: 5%;
     }
 
 }

@@ -42,7 +42,7 @@ const NavbarComponent = () => {
             <Nav.Link href='#Experience' className='Link'> Experience</Nav.Link>
             <Nav.Link href='#Projects' className='Link'> Projects</Nav.Link>
             <Nav.Link href='#Contacts' className='Link'> Contacts</Nav.Link>
-            <a href='https://1drv.ms/b/s!AlyiYipSAd7uk_IecO9XuMTQCMpBDA?e=z9oJn7' target="_blank" rel="noopener noreferrer">
+            <a href='https://docs.google.com/document/d/1O6FRFX5xh9KoBYjf95M4pMyGZ5KzYs4-ondUgJ9AdKI/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
               <Button className='Button'> Resume</Button>
             </a>
           </Nav>
