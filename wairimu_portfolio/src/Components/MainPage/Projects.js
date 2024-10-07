@@ -45,15 +45,15 @@ const Projects = () => {
                         <img src={EAVI} alt='Line' />
                     </div>
                     <div className='projectContent'>
-                        <p> I participated in the development of EAVI Admission Module, a school system designed to streamline the student application
+                        <p> I participated in the development of <a href='https://admission.eavi.ac.ke/login.php' target="_blank" rel="noopener noreferrer">EAVI Admission Module</a>, a school system designed to streamline the student application
                             process by digitizing and simplifying workflows. It allows prospective students to apply remotely,
                             reducing the need for in-person visits. The system enhances efficiency, provides automated updates,
                             and creates a more convenient, organized, and transparent admissions experience.</p>
 
                         <p className='iconParagraph'>
-                            {/* <a href='https://masywairimu.github.io/SAFARI-FRONT-END/' target="_blank" rel="noopener noreferrer">
+                            <a href='https://admission.eavi.ac.ke/login.php' target="_blank" rel="noopener noreferrer">
                                 <FaExternalLinkAlt className='pIcon' />
-                            </a> */}
+                            </a>
                             <a href='https://github.com/Bennavi-Softsolution/Admission-Page-Module-Integration' target="_blank" rel="noopener noreferrer">
                                 <SiGithub className='pIcon' />
                             </a>
@@ -73,7 +73,7 @@ const Projects = () => {
                             providing a platform for easy and regular contact with
                             healthcare professionals. </p>
                         <p>
-                            Download the applicatio from this folder to view: <span></span>
+                            Download the application from this folder to view: <span></span>
                             <a href='https://1drv.ms/f/s!AlyiYipSAd7ukb4eGZ65A9SpBVbwQQ?e=hhac0T' target="_blank" rel="noopener noreferrer" >
                                 DOC&I </a>
                         </p>
