@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/css/main.89734fa0.css",
+    "main.js": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/main.48f09d09.js",
+    "static/js/453.6e87cbdb.chunk.js": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/453.6e87cbdb.chunk.js",
+    "static/media/image.png": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/media/image.5ac6b0d910800962c592.png",
+    "static/media/PortfolioImage.jpeg": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/media/PortfolioImage.2f9f8b1113cce8fe531d.jpeg",
+    "static/media/laptop-screen1.jpeg": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/media/laptop-screen1.833de22e88692dfae005.jpeg",
+    "static/media/DOC&I-Doctor.jpeg": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/media/DOC&I-Doctor.1f5506e641844e311c32.jpeg",
+    "static/media/DOC&I-Patient.jpeg": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/media/DOC&I-Patient.5344022cd4e532bc40a3.jpeg",
+    "index.html": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/index.html",
+    "main.89734fa0.css.map": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/css/main.89734fa0.css.map",
+    "main.48f09d09.js.map": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/main.48f09d09.js.map",
+    "453.6e87cbdb.chunk.js.map": "/WAIRIMU_PORTFOLIO/wairimu_portfolio/static/js/453.6e87cbdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89734fa0.css",
+    "static/js/main.48f09d09.js"
+  ]
+}
